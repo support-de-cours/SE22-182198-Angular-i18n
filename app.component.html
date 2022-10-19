@@ -1,0 +1,10 @@
+<div i18n="@@messageHello">Hello</div>
+<div i18n="This is a message for Yes@@messageYes">Yes</div>
+<div i18n="Context message|This is a message for No@@messageNo">No</div>
+<ng-container i18n="Context message|This is a message for Awesome Ng@@messageAwesomeNg">Angular is awesome</ng-container>
+
+<hr>
+<div>{{ messages.length | i18nPlural: messageMapping }}</div>
+
+<hr>
+<div>{{ message_with_id }}</div>
